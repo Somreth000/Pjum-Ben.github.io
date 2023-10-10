@@ -1,0 +1,127 @@
+@media screen and (max-width:968px) {
+    .menu-header ul li {
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        margin: 6px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #menu-left-text {
+        margin: 0;
+        padding-left: 70%;
+        padding-left: 160px;
+    }
+
+    .Product-box2-right-txt img {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .contion-nov img{
+        width: 80%;
+        margin: auto;
+    }
+    .contion-histery {
+        width: 100%;
+        height: auto;
+    }
+    .product-img-top{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box-img1 img {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+        height: 25vh;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px 3px #6b6a6a;
+        object-fit: cover;
+        
+    }
+    .menu-header ul li::after{
+        position: absolute;
+        content: "";
+        width: 70%;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        transition: 0.5s;
+        transform: scaleX(0);
+        transform-origin: left;
+        background-color: black;
+      }
+      .popup-img img{
+        width: 100%;
+      }
+}
+
+/* [[[[[[[[[[[]]]]]]]]]]]]] */
+
+@media screen and (max-width:500px){
+    .menu-header {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        cursor: pointer;
+    }
+    .menu-header ul li::after{
+        position: absolute;
+        content: "";
+        width: 65%;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        transition: 0.5s;
+        transform: scaleX(0);
+        transform-origin: left;
+        background-color: black;
+      }
+    .menu-header ul{
+        margin-left: 10%;
+        width: 100%;
+        display: flex;
+    }
+    .contact-item-left-txt{
+        margin-top: 15%;
+        height: auto;
+    }
+    #nex{
+        margin-bottom: 10px;
+    }
+    .herder-nav{
+        width: 100%;
+    }
+    #menu-left-text{
+        display: none;
+    }
+    .popup-img img{
+        width: 80%;
+      }
+      .Product-box3-right-img img {
+        height: 20vh;
+      }
+      .product-img-top {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product-img-top img{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom:5%;
+    }
+    .contact-item-right-top img{
+        height: 30vh;
+        object-fit: cover;
+    }
+    .contact-item-right-top{
+        height: 30vh;
+    }
+    .contion-histery h4{
+        font-size: 1.5em;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+}
+
